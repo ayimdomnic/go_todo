@@ -1,6 +1,6 @@
 ## Advent of Code [Go-Lang]
 
-- Week 7 of computer fundermetals, building a simple go todo app to solve the Advent of Code challenge.
+- Week 7 of computer Science fundermetals, building a simple go todo app to solve the Advent of Code challenge.
 
 ## Dev Setup
 
