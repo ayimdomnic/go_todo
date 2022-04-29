@@ -70,8 +70,8 @@ func deleteHandler(c *fiber.Ctx, db *sql.DB) error {
 }
 
 func main() {
-
-	db, err := sql.Open("postgres", "user=postgres password=V@r1@bl3 dbname=todos host=localhost port=5432 sslmode=disable")
+	conString := os.Getenv("DATABASE_URL")
+	db, err := sql.Open("postgres", conString)
 
 	if err != nil {
 		log.Fatal(err)
